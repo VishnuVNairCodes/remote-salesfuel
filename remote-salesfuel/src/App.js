@@ -1,7 +1,11 @@
+import Article from "./components/Article/Article";
+import SideBar from "./components/SideBar/SideBar";
+
 function App() {
   return (
     <div className="App">
-      <h1 className="header">Remote Sales Fuel</h1>
+      <SideBar />
+      <Article />
     </div>
   );
 }
