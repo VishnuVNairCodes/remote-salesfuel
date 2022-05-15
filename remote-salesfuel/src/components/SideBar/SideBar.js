@@ -4,26 +4,26 @@ import "./SideBar.css";
 function SideBar() {
   return (
     <>
-      <aside>
-        <header>
-          <h1>Remote SalesFuel</h1>
-          <div>
-            <div>Dashboard</div>
-            <div>Knowledge</div>
-            <div>Members</div>
-            <div>Members</div>
-            <div>Teams</div>
-            <div>Vault</div>
-            <div>Chat</div>
+      <aside className="sidebar">
+        <header className="sidebar-header">
+          <h1 className="sidebar-heading">Remote SalesFuel</h1>
+          <div className="sidebar-header-nav">
+            <div className="sidebar-header-nav-item">Dashboard</div>
+            <div className="sidebar-header-nav-item">Knowledge</div>
+            <div className="sidebar-header-nav-item">Members</div>
+            <div className="sidebar-header-nav-item">Members</div>
+            <div className="sidebar-header-nav-item">Teams</div>
+            <div className="sidebar-header-nav-item">Vault</div>
+            <div className="sidebar-header-nav-item">Chat</div>
           </div>
         </header>
-        <footer>
-          <div>
-            <div>Settings</div>
-            <div>Company</div>
-            <div>My Profile</div>
+        <footer className="sidebar-footer">
+          <div className="sidebar-footer-nav">
+            <div className="sidebar-footer-nav-item">Settings</div>
+            <div className="sidebar-footer-nav-item">Company</div>
+            <div className="sidebar-footer-nav-item">My Profile</div>
           </div>
-          <div>Powered by TeamJeenyus</div>
+          <div className="sidebar-footer-sponsor">Powered by TeamJeenyus</div>
         </footer>
       </aside>
     </>

@@ -1,4 +1,23 @@
-aside {
-  background-color: yellow;
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+.sidebar {
   width: 15rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  color: #ffffff;
+  border-right: 3px solid orangered;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.sidebar-heading {
+  font-family: "Ubuntu", sans-serif;
+  padding: 2rem 1rem;
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+.sidebar-footer {
+  margin-top: auto;
 }
