@@ -1,4 +1,52 @@
-aside {
-  background-color: yellow;
+.sidebar {
   width: 15rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  color: #ffffff;
+  border-right: 4px solid #0284c7;
+  text-align: center;
+}
+
+.sidebar-heading {
+  font-family: "Ubuntu", sans-serif;
+  padding: 2rem 1rem;
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+.sidebar-header-nav,
+.sidebar-footer-nav {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0.8rem;
+}
+
+.sidebar-header-nav-item,
+.sidebar-footer-nav-item {
+  color: #fff;
+  background-color: #000000;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0.6rem;
+  border-radius: 0.2rem;
+  transition: 0.2s;
+
+  display: flex;
+  gap: 1rem;
+}
+.sidebar-header-nav-item:hover,
+.sidebar-footer-nav-item:hover {
+  cursor: pointer;
+  background-color: #2a2a2a;
+}
+
+.sidebar-footer {
+  margin-top: auto;
+}
+
+.sidebar-footer-sponsor {
+  padding: 1rem 0.5rem;
+  border-top: 0.5px solid #808080;
 }
