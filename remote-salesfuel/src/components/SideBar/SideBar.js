@@ -8,20 +8,65 @@ function SideBar() {
         <header className="sidebar-header">
           <h1 className="sidebar-heading">Remote SalesFuel</h1>
           <div className="sidebar-header-nav">
-            <div className="sidebar-header-nav-item">Dashboard</div>
-            <div className="sidebar-header-nav-item">Knowledge</div>
-            <div className="sidebar-header-nav-item">Members</div>
-            <div className="sidebar-header-nav-item">Members</div>
-            <div className="sidebar-header-nav-item">Teams</div>
-            <div className="sidebar-header-nav-item">Vault</div>
-            <div className="sidebar-header-nav-item">Chat</div>
+            <button className="sidebar-header-nav-item">
+              <span class="sidebar-icon">
+                <i class="fa-solid fa-house"></i>
+              </span>
+              Dashboard
+            </button>
+            <button className="sidebar-header-nav-item">
+              <span class="sidebar-icon">
+                <i class="fa-solid fa-graduation-cap"></i>
+              </span>
+              Knowledge
+            </button>
+            <button className="sidebar-header-nav-item">
+              <span class="sidebar-icon">
+                <i class="fa-solid fa-user-group"></i>
+              </span>
+              Members
+            </button>
+
+            <button className="sidebar-header-nav-item">
+              <span class="sidebar-icon">
+                <i class="fa-solid fa-layer-group"></i>
+              </span>
+              Teams
+            </button>
+            <button className="sidebar-header-nav-item">
+              <span class="sidebar-icon">
+                <i class="fa-solid fa-folder"></i>
+              </span>
+              Vault
+            </button>
+            <button className="sidebar-header-nav-item">
+              <span class="sidebar-icon">
+                <i class="fa-solid fa-message"></i>
+              </span>
+              Chat
+            </button>
           </div>
         </header>
         <footer className="sidebar-footer">
           <div className="sidebar-footer-nav">
-            <div className="sidebar-footer-nav-item">Settings</div>
-            <div className="sidebar-footer-nav-item">Company</div>
-            <div className="sidebar-footer-nav-item">My Profile</div>
+            <button className="sidebar-footer-nav-item">
+              <span class="sidebar-icon">
+                <i class="fa-solid fa-gear"></i>
+              </span>
+              Settings
+            </button>
+            <button className="sidebar-footer-nav-item">
+              <span class="sidebar-icon">
+                <i class="fa-solid fa-building"></i>
+              </span>
+              Company
+            </button>
+            <button className="sidebar-footer-nav-item">
+              <span class="sidebar-icon">
+                <i class="fa-solid fa-circle-user"></i>
+              </span>
+              My Profile
+            </button>
           </div>
           <div className="sidebar-footer-sponsor">Powered by TeamJeenyus</div>
         </footer>

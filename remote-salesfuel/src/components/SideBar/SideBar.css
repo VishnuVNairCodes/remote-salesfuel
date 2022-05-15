@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
-
 .sidebar {
   width: 15rem;
   display: flex;
@@ -16,6 +14,33 @@
   padding: 2rem 1rem;
   font-size: 1.2rem;
   font-weight: lighter;
+}
+
+.sidebar-header-nav,
+.sidebar-footer-nav {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0.5rem;
+}
+
+.sidebar-header-nav-item,
+.sidebar-footer-nav-item {
+  color: #fff;
+  background-color: #000000;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0.6rem;
+  border-radius: 0.2rem;
+  transition: 0.2s;
+
+  display: flex;
+  gap: 1rem;
+}
+.sidebar-header-nav-item:hover,
+.sidebar-footer-nav-item:hover {
+  cursor: pointer;
+  background-color: #2a2a2a;
 }
 
 .sidebar-footer {
