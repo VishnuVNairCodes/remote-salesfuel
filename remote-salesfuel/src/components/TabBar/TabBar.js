@@ -1,18 +1,19 @@
 import React from "react";
+import "./TabBar.css";
 
 function TabBar() {
   return (
     <>
-      <div>
-        <button>All</button>
-        <button>Live</button>
-        <button>Draft</button>
-        <button>Archived</button>
-      </div>
-      <div>
-        <select name="teams" id="teams">
+      <div className="tab">
+        <div className="tab-btn-group">
+          <button className="tab-btn">All</button>
+          <button className="tab-btn">Live</button>
+          <button className="tab-btn">Draft</button>
+          <button className="tab-btn">Archived</button>
+        </div>
+        <select name="teams" className="tab-dropdown">
           <option value="" disabled selected>
-            Select your option
+            Select team{" "}
           </option>
           <option value="team-1">Team 1</option>
           <option value="team-2">Team 2</option>
