@@ -4,9 +4,8 @@
   flex-direction: column;
   background-color: #000000;
   color: #ffffff;
-  border-right: 3px solid orangered;
+  border-right: 4px solid #0284c7;
   text-align: center;
-  padding: 0 1rem;
 }
 
 .sidebar-heading {
@@ -20,7 +19,7 @@
 .sidebar-footer-nav {
   display: flex;
   flex-direction: column;
-  margin: 0 0.5rem;
+  margin: 0 0.8rem;
 }
 
 .sidebar-header-nav-item,
@@ -45,4 +44,9 @@
 
 .sidebar-footer {
   margin-top: auto;
+}
+
+.sidebar-footer-sponsor {
+  padding: 1rem 0.5rem;
+  border-top: 0.5px solid #808080;
 }
