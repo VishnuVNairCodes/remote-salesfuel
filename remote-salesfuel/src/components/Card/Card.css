@@ -1,0 +1,110 @@
+.card-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 15rem;
+  padding: 3px;
+  border: 1px solid black;
+  border-radius: 4px;
+  gap: 0.5rem;
+  background-color: white;
+  cursor: pointer;
+}
+
+.card-image-container {
+  position: relative;
+  height: 10rem;
+  width: 14.5rem;
+}
+.card-image {
+  height: 10rem;
+  width: 14.5rem;
+  border-radius: 2px;
+  object-fit: cover;
+}
+
+.card-details-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0.8rem;
+  gap: 1rem;
+}
+
+.card-details-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.card-heading {
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+.card-date {
+  font-size: 0.7rem;
+}
+
+.card-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.8rem;
+}
+
+.card-info-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3px;
+}
+
+.category {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.category-item {
+  font-size: 0.6rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  background-color: #d5d5d5;
+}
+
+.card-badge {
+  position: absolute;
+  top: 0.7rem;
+  right: 0.7rem;
+  z-index: 1;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.683);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  padding: 0.5rem;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.card-badge-status {
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+}
+
+.card-badge-status.draft {
+  background-color: green;
+}
+
+.card-badge-status.archived {
+  background-color: grey;
+}
+
+.card-badge-status.live {
+  background-color: red;
+}

@@ -9,12 +9,12 @@ function NavBar() {
         <div className="nav-items">
           <button className="nav-btn">Create Course</button>
           <img
-            class="nav-avatar"
-            src="https://i.pravatar.cc/300"
+            className="nav-avatar"
+            src="https://i.pravatar.cc/150?img=12"
             alt="nav-avatar"
           />
           <span className="nav-options-icon">
-            <i class="fa-solid fa-ellipsis-vertical"></i>
+            <i className="fa-solid fa-ellipsis-vertical"></i>
           </span>
         </div>
       </nav>
