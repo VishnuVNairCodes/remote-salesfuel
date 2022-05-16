@@ -4,10 +4,10 @@
   flex-direction: column;
   width: 15rem;
   padding: 3px;
-  border: 1px solid black;
+  border: 1px solid #000000;
   border-radius: 4px;
   gap: 0.5rem;
-  background-color: white;
+  background-color: #ffffff;
   cursor: pointer;
 }
 
@@ -79,7 +79,7 @@
   top: 0.7rem;
   right: 0.7rem;
   z-index: 1;
-  color: white;
+  color: #ffffff;
   background-color: rgba(0, 0, 0, 0.683);
   font-size: 0.7rem;
   text-transform: uppercase;
@@ -98,13 +98,13 @@
 }
 
 .card-badge-status.draft {
-  background-color: green;
+  background-color: #008000;
 }
 
 .card-badge-status.archived {
-  background-color: grey;
+  background-color: #808080;
 }
 
 .card-badge-status.live {
-  background-color: red;
+  background-color: #ff0000;
 }

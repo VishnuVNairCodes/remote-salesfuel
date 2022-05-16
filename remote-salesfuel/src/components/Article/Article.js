@@ -247,8 +247,8 @@ function Article() {
                 Archived
               </button>
             </div>
-            <select name="teams" className="tab-dropdown">
-              <option value="" disabled selected>
+            <select defaultValue="" name="teams" className="tab-dropdown">
+              <option value="" disabled>
                 Select team{" "}
               </option>
               <option value="team-1">Team 1</option>

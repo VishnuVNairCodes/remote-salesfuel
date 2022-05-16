@@ -3,7 +3,7 @@
   align-items: center;
   gap: 2rem;
   padding: 1rem 2.5rem;
-  background-color: white;
+  background-color: #ffffff;
   border-bottom: 1px solid #d5d5d5;
 }
 
@@ -23,11 +23,11 @@
 
 .nav-btn {
   background-color: #0284c7;
-  color: white;
+  color: #ffffff;
   padding: 4px;
   font-size: 0.9rem;
   text-transform: uppercase;
-  border: 2px solid black;
+  border: 2px solid #000000;
   border-radius: 2px;
 }
 
